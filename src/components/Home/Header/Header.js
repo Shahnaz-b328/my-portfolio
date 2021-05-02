@@ -15,8 +15,8 @@ const Header = () => {
                     </TextAnimation>;
                 <a style={{ textDecoration: 'none', fontFamily: 'Arial', color: 'DarkSalmon', fontWeight: 'bold' }} href={resume} download>
                 <FontAwesomeIcon icon={faDownload} /> Download Resume
-                </a>
-                <a style={{ textDecoration: 'none', fontFamily: 'Arial', color: 'DarkSalmon', fontWeight: 'bold' }} href="https://drive.google.com/file/d/1ruhaqbGvEj04csCOCeshkWidzZduBAoC/view" download>
+                </a><br></br>
+                <a target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', fontFamily: 'Arial', color: 'DarkSalmon', fontWeight: 'bold' }} href="https://drive.google.com/file/d/1ruhaqbGvEj04csCOCeshkWidzZduBAoC/view" download>
                  View Resume
                 </a>
                 </div>
