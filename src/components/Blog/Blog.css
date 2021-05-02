@@ -1,0 +1,8 @@
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bg-color{
+    background-color:aliceblue;
+    height: 500px;
+}

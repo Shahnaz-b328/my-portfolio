@@ -1,0 +1,15 @@
+.navbar ul{
+    margin-left: 800px;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color:navy;
+}
+    
