@@ -15,8 +15,8 @@ const Project = (props) => {
                     <div class="card-body">
                         <p onClick={() => projectDetail(title)} style={{ color: 'navy', textAlign: 'center', fontFamily: 'Arial', cursor:'pointer'}} class="card-text">{title}</p>
                         <div >
-                            <a style={{ textDecoration: 'none', color: 'indigo' }} target="_blank" href={livePreview} class="card-text">Live PreView</a>
-                            <a style={{ textDecoration: 'none', color: 'indigo', float: 'right' }} target="_blank" href={gitHubClient} class="card-text">GitHub</a>
+                            <a style={{ textDecoration: 'none', color: 'indigo' }} target="_blank" rel="noopener noreferrer" href={livePreview} class="card-text">Live PreView</a>
+                            <a style={{ textDecoration: 'none', color: 'indigo', float: 'right' }} target="_blank" rel="noopener noreferrer" href={gitHubClient} class="card-text">GitHub</a>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { setActiveLink } from 'react-scroll/modules/mixins/scroller';
 import BlogDetail from '../BlogDetail/BlogDetail';
 import './Blog.css';
 const blogData = [
