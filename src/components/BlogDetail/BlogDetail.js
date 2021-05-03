@@ -3,7 +3,7 @@ import React from 'react';
 const BlogDetail = (props) => {
     const { title, reading } = props.blogs
     return (
-        <div className="col-md-4" >
+        <div className="col-md-4 my-5" >
             <div class="card" style={{width: "18rem"}}>
                 <div class="card-body">
                     <h5 class="card-title">{title}</h5>

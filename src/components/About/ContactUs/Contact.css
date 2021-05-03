@@ -1,0 +1,13 @@
+.contact-background{
+    background-color: #DE3163;
+    height: 450px;
+}
+input{
+    background-color: cornsilk;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+textarea{
+    background-color: cornsilk;
+    padding: 5px 5px;
+}

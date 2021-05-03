@@ -1,8 +1,8 @@
 import React from 'react';
 import SkillBar from 'react-skillbars';
 const skills = [
-    { type: "Java", level: 70 },
-    { type: "Javascript", level: 85 },
+    { type: "Java", level: 70},
+    { type: "Javascript", level: 85},
     { type: "Node Js", level: 85 },
     { type: "React", level: 95 },
     { type: "c", level: 80 },
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div className="col-md-6 my-5 container">
                     <h5 style={{ textAlign: 'center', color: 'mediumslateblue', fontWeight: 'bold' }}>Skills</h5>
-                    <SkillBar skills={skills} height={30} />
+                    <SkillBar  skills={skills} height={30} />
                 </div>
             </div>
         </section>

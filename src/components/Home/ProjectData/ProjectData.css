@@ -1,8 +1,9 @@
+@media (min-width: 992px) {
 .project{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+}
 .back-color{
-    height: 500px;
     background-color: lightcyan;
 }

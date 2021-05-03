@@ -22,7 +22,7 @@ const Blog = () => {
         <section id="blog">
             <div className="container mt-5 bg-color">
                 <h1 className="text-uppercase" style={{ textAlign: 'center', color: 'pink', }}>Blogs</h1>
-                <div className="blog container mt-5">
+                <div className="blog row mt-5 mx-5">
                     {
                         blogData.map(blogs => <BlogDetail blogs={blogs}></BlogDetail>)
                     }
