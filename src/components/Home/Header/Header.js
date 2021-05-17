@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import TextAnimation from 'react-animate-text';
 import TextTransition, { presets } from "react-text-transition";
-import resume from '../../../images/Shahnaz Begum_Resume_Update30April-converted.pdf';
+import resume from '../../../images/Shahnaz Begum_Resume.pdf';
 import './Header.css';
 const TEXTS = [
     "Web Developer",
@@ -37,7 +37,7 @@ const Header = () => {
                         <a href={resume} download>
                             <button className="my-2" style={{ backgroundColor: '#de5d83', textDecoration: 'none', fontFamily: 'Arial', color: 'white', fontWeight: 'bold', marginLeft:'100px' }}><FontAwesomeIcon className="mx-2" icon={faDownload} /> Download Resume</button>
                         </a><br></br>
-                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1ruhaqbGvEj04csCOCeshkWidzZduBAoC/view" download>
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Z6NBkx4RiLkI_WaE9szESWU0E-WtaU_a/view" download>
                             <button className="my-2" style={{ backgroundColor: '#de5d83', textDecoration: 'none', fontFamily: 'Arial', color: 'white', fontWeight: 'bold', marginLeft:'100px' }}><FontAwesomeIcon className="mx-2" icon={faFile} />View Resume</button>
                         </a>
                     </TextAnimation>
