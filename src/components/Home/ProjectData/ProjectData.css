@@ -1,9 +1,3 @@
-@media (min-width: 992px) {
-.project{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-}
-.back-color{
-    background-color: lightcyan;
+.background-color{
+    background-color: #f5f5dc;
 }

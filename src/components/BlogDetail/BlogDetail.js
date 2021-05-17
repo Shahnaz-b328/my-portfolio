@@ -1,14 +1,16 @@
 import React from 'react';
-
+import './BlogDetail.css';
 const BlogDetail = (props) => {
-    const { title, reading } = props.blogs
+    const { title, reading, link } = props.blogs
     return (
-        <div className="col-md-4 my-5" >
-            <div class="card" style={{width: "18rem"}}>
+        <div className="p-3 my-5" >
+            <div class="blog-card" style={{ width: "18rem" }}>
                 <div class="card-body">
                     <h5 class="card-title">{title}</h5>
                     <p class="card-text text-secondary">{reading}</p>
-                    <button className="btn btn-primary">See More</button>
+                    <a target="_blank" rel="noopener noreferrer" href={link}>
+                        <button className="btn btn-primary">See More</button>
+                    </a>
                 </div>
             </div>
         </div>
